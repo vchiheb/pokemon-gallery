@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
 
 * {
   box-sizing: border-box;
@@ -12,32 +14,17 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
+  background-color: #ECE7E1;
 }
 
 header {
   padding-left: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Limelight', sans-serif;
 }
 
-.container {
-  display:flex;
-  align-items: center;
-  justify-content: center;;
+ h2 {
+  font-family: 'Limelight', sans-serif;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flex-item{
-  flex: 1 1 30%;
-  text-align:center;
-  border: 1px solid gray;
-  margin: 6px;
-  padding: 8px;
-  border-radius: 5px;
-}
-
-.flex-item h2 {
-  text-align: left;
-}
